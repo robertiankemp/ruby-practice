@@ -5,19 +5,12 @@ require 'prime'
 def prime_sum(n)
   total = 0
   (1..n).each { |x|
-    if x.prime?
-      total = total + x
-    end
-  }
+    x.prime? ? total = total + x : nil
+    }
   puts total
 end
 
-prime_sum(2000000)
-
-
-
-
-
+prime_sum(10)
 
 
 # def prime_sum(n)
