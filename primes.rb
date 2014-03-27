@@ -10,7 +10,7 @@ def prime_sum(n)
   puts total
 end
 
-prime_sum(10)
+prime_sum(2000000)
 
 
 # def prime_sum(n)
